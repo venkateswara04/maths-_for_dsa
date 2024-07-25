@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container" id="authContainer">
+            <h1>Maths for DSA</h1> <!-- Project title -->
+            <div id="signInForm" class="form active">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="button" id="signInSubmit">Login</button>
+                <button type="button" id="signUp">Sign Up</button>
+                <button type="button" id="forgotPassword">Forgot Password?</button>
+            </div>
+        </div>
+
+        <div class="container topics" id="topicsContainer" style="display: none;">
+            <h2>DSA Topics</h2>
+            <ul>
+                <li>Arrays</li>
+                <li>Linked Lists</li>
+                <li>Stacks</li>
+                <li>Queues</li>
+                <li>Hash Tables</li>
+                <li>Trees</li>
+                <li>Graphs</li>
+                <li>Sorting Algorithms</li>
+                <li>Searching Algorithms</li>
+                <li>Dynamic Programming</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
